@@ -1,0 +1,51 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="ImageViewStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:layout_width">0dip</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:layout_weight">0.33</item>
+    <item name="android:background">#000000</item>
+    <item name="android:padding">8dip</item>
+    <item name="android:scaleType">centerInside</item>
+  </style>
+
+  <style name="LinearImageStyle">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">0dip</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:background">#ffffff</item>
+  </style>
+
+  <style name="PlayerTextStyle">
+    <item name="android:layout_width">70dip</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">18dip</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="PlayerImageStyle">
+    <item name="android:layout_width">48dip</item>
+    <item name="android:layout_height">48dip</item>
+    <item name="android:scaleType">centerInside</item>
+  </style>
+
+  <style name="ScoreTextStyle">
+    <item name="android:layout_width">20dip</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:gravity">center</item>
+    <item name="android:text">0</item>
+    <item name="android:textSize">20dip</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+</resources>
